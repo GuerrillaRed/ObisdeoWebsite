@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <img src="C:\Users\maust\Pictures\Effigy.png" alt="Effigy" style="width:600px;height:500px;">
+	
+  </body>
+  <form>
+ <span>Please Select A Map:</span>
+ <select v-model = "selected">
+ <option v-bind:value="{ Please select a map }">Please select a map</option>
+ <option v-bind:value="{ Potts House }">Potts House</option>
+ <option v-bind:value="{ River Road }">River Road</option>
+ <option v-bind:value="{ Farm Lane }">Farm Lane</option>
+ </select>
+ <script>
+ <v-if =v-bind:value=" { Potts House } "<img src="C:\Users\maust\Pictures\Potts House.jpg" alt="Effigy" style="width:600px;height:500px;"></v-if>
+ </script>
+ 
+  </form>
+</html>  
+
+
+
+
+
+
