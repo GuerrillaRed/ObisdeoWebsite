@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <title>My test page</title>
   </head>
+  <!--Need to get this pulling the pictures from Github and not my desktop-->
   <body>
-    <img src="C:\Users\maust\Pictures\Effigy.png" alt="Effigy" style="width:600px;height:500px;">
+    <img src="pictures/Potts House.jpg" alt="Effigy" style="width:600px;height:500px;">
 	
   </body>
   <form>
+  <!--Map selection-->
  <span>Please Select A Map:</span>
  <select v-model = "selected">
  <option v-bind:value="{ Please select a map }">Please select a map</option>
@@ -21,7 +23,7 @@
 <style>
 	p {
 		border: 2px solid black;
-	}
+	
 <input type="checkbox" id="Evidence1" v-model="checked">
  <label for="Evidence1">Appears</label>
  <input type="checkbox" id="Evidence2" v-model="checked">
@@ -149,8 +151,9 @@
 <input type="checkbox" id="Evidence65" v-model="checked">
 
 <input type="checkbox" id="Evidence66" v-model="checked">
-	  </style>
-	</form>
+  }
+  </style>
+</form>
 </html>  
 
 
