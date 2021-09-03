@@ -18,7 +18,11 @@
  <option v-bind:value="{ Farm Lane }">Farm Lane</option>
  </select>
  <!--Working on getting my evidences inputted here. There has got to be a cleaner way to do this-->
-  <input type="checkbox" id="Evidence1" v-model="checked">
+<style>
+	p {
+		border: 2px solid black;
+	}
+<input type="checkbox" id="Evidence1" v-model="checked">
  <label for="Evidence1">Appears</label>
  <input type="checkbox" id="Evidence2" v-model="checked">
  <label for="Evidence2">Bath Filled With Blood</label>
@@ -145,7 +149,8 @@
 <input type="checkbox" id="Evidence65" v-model="checked">
 
 <input type="checkbox" id="Evidence66" v-model="checked">
-  </form>
+	  </style>
+	</form>
 </html>  
 
 
