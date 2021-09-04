@@ -56,9 +56,9 @@ export default defineComponent({
   data() {
     return {
       pictureDropdownImgs: [
-        { key:"test 1", value:"test1.png" },
-        { key:"test 2", value:"test2.png" },
-        { key:"test 3", value:"test3.png" },
+        { key:"test 1", value:"Potts House.jpg" },
+        { key:"test 2", value:"River Road.jpg" },
+        { key:"test 3", value:"Farm Lane.jpg" },
       ],
       selectedDropdownImg: "test1.png"
     }
