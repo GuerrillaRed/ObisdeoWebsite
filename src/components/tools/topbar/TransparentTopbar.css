@@ -1,0 +1,17 @@
+
+
+.transparent_topbar {
+    background-color: red;
+    position:fixed;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    align-items: center;
+}
+
+.nav-list li {
+    text-decoration: none;
+    text-decoration-style: none;
+    display: inline;
+}

@@ -1,0 +1,32 @@
+.canvas-container {
+    margin: 0;
+    padding: 0;
+    background-color: sandybrown;
+    max-width: 1280px;
+    max-height: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+}
+
+.canvas-container > canvas {
+    width: 1280px;
+    height: 800px;
+}
+
+.fullscreen-button { 
+    width: 50px;
+    min-height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    transform: translate(-125%, 25%);
+
+}
+
+#gui-container {
+    background-color: rgba(0, 0, 255, .2);
+    width: auto;
+    height: auto;
+    position:absolute;
+    margin: 1%;
+}

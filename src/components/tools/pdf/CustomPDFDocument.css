@@ -1,0 +1,70 @@
+.iframe-container {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  
+  /* 16:9 aspect ratio */
+  padding-top: 50%;
+  position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.tooltray {
+  height: 40px;
+  background-color: rgb(56, 56, 56);
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.button-container-top {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(85, 85, 85);
+}
+
+.button-container-top > .select-button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button-container-top > button {
+  display: inline-block;
+}
+  
+.button-container-top > .select-button {
+   padding: 1rem;
+ 
+   color: white;
+   background-color: #2EA169;
+ 
+   border-radius: .3rem;
+ 
+   text-align: center;
+   font-weight: bold;
+ }
+ 
+ .button-container-top > .select-button > input[type="file"] {
+   display: none;
+ }
+ 
+ .button-container-top > .export-button {
+  padding: 1rem;
+  border: none;
+
+  color: white;
+  background-color: #ff6060;
+
+  border-radius: .3rem;
+
+  text-align: center;
+  font-weight: bold;
+}
