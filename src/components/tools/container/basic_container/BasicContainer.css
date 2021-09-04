@@ -1,0 +1,14 @@
+.light-rounded-container {
+    background-color: #242629;
+    border-radius: 15px;
+    align-self: center;
+}
+
+::v-slotted(p) {
+    color:red !important;
+    width: 1% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 25px !important;
+    padding-bottom: 15px !important;
+}

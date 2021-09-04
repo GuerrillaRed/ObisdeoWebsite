@@ -1,0 +1,14 @@
+.basic {
+    width: 20%;
+    height: 5vmax;
+    background-color:#7f5af0;
+    border: none;
+    border-radius: 20px;
+    transition:ease-in background-color 0.13s;
+    color: #fffffe;
+    font-size: large;
+}
+
+.basic:hover {
+    background-color: #483483;
+}

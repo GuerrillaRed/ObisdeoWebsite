@@ -1,0 +1,11 @@
+$USER
+$PASS
+
+PROMPT
+bin
+cd ~/public_html
+mkdir typescript_output
+MPUT ./web/*.html
+cd ~/public_html/typescript_output
+MPUT ./web/typescript_output/*
+bye
