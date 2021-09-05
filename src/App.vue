@@ -60,7 +60,7 @@ export default defineComponent({
         { key:"test 2", value:"River Road.jpg" },
         { key:"test 3", value:"Farm Lane.jpg" },
       ],
-      selectedDropdownImg: "Potts House.jpg"
+      selectedDropdownImg: "blank.jpg"
     }
   },
   methods: {
